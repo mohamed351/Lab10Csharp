@@ -1,0 +1,15 @@
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\bin\Debug\FileInformationControl.dll
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\bin\Debug\FileInformationControl.pdb
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\obj\Debug\FileInformationControl.csprojAssemblyReference.cache
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\obj\Debug\FileInformationControl.Properties.Resources.resources
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\obj\Debug\FileInformationControl.csproj.GenerateResource.cache
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\obj\Debug\FileInformationControl.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\obj\Debug\FileInformationControl.dll
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\obj\Debug\FileInformationControl.pdb
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\bin\Debug\MetroFramework.Design.dll
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\bin\Debug\MetroFramework.dll
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\obj\Debug\FileInformationControl.DrivesControls.resources
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\obj\Debug\FileInformationControl.csproj.CopyComplete
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\bin\Debug\FileInformation.dll
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\bin\Debug\FileInformation.pdb

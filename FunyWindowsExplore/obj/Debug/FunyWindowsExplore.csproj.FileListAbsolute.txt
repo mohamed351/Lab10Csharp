@@ -1,0 +1,10 @@
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FunyWindowsExplore\bin\Debug\FunyWindowsExplore.exe.config
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FunyWindowsExplore\bin\Debug\FunyWindowsExplore.exe
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FunyWindowsExplore\bin\Debug\FunyWindowsExplore.pdb
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FunyWindowsExplore\obj\Debug\FunyWindowsExplore.csprojAssemblyReference.cache
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FunyWindowsExplore\obj\Debug\FunyWindowsExplore.Form1.resources
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FunyWindowsExplore\obj\Debug\FunyWindowsExplore.Properties.Resources.resources
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FunyWindowsExplore\obj\Debug\FunyWindowsExplore.csproj.GenerateResource.cache
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FunyWindowsExplore\obj\Debug\FunyWindowsExplore.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FunyWindowsExplore\obj\Debug\FunyWindowsExplore.exe
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FunyWindowsExplore\obj\Debug\FunyWindowsExplore.pdb

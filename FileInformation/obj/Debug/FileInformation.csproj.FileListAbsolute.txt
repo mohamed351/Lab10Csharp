@@ -1,0 +1,8 @@
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformation\bin\Debug\FileInformation.dll
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformation\bin\Debug\FileInformation.pdb
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformation\obj\Debug\FileInformation.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformation\obj\Debug\FileInformation.dll
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformation\obj\Debug\FileInformation.pdb
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformation\obj\Debug\FileInformation.PictureSource.resources
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformation\obj\Debug\FileInformation.csproj.GenerateResource.cache
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformation\obj\Debug\FileInformation.csprojAssemblyReference.cache
