@@ -91,7 +91,7 @@
             this.formatToolStripMenuItem,
             this.propertyToolStripMenuItem});
             this.driveContextMenu.Name = "driveContextMenu";
-            this.driveContextMenu.Size = new System.Drawing.Size(135, 76);
+            this.driveContextMenu.Size = new System.Drawing.Size(211, 104);
             // 
             // openToolStripMenuItem
             // 
@@ -108,8 +108,9 @@
             // propertyToolStripMenuItem
             // 
             this.propertyToolStripMenuItem.Name = "propertyToolStripMenuItem";
-            this.propertyToolStripMenuItem.Size = new System.Drawing.Size(134, 24);
+            this.propertyToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.propertyToolStripMenuItem.Text = "Property";
+            this.propertyToolStripMenuItem.Click += new System.EventHandler(this.propertyToolStripMenuItem_Click);
             // 
             // labelfull
             // 

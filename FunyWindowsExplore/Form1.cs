@@ -1,8 +1,11 @@
-﻿using System;
+﻿using FileInformation;
+using FileInformationControl;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +19,7 @@ namespace FunyWindowsExplore
         {
             InitializeComponent();
             this.Activate();
-            this.txtNavigator.Width = this.Width;
+           
         }
 
        
@@ -31,11 +34,26 @@ namespace FunyWindowsExplore
                 }
               
             }
+            
+           
         }
 
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+           
+            foreach (var item in DriveInfo.GetDrives())
+            {
+                DrivesControls controls = new DrivesControls()
+                {
+                    DriveName = item.Name
+                };
+                flowLayoutPanel1.Controls.Add(controls);
+            }
         }
     }
 }

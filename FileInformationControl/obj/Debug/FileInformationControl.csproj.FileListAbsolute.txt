@@ -13,3 +13,5 @@ C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\obj\Debug
 C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\obj\Debug\FileInformationControl.csproj.CopyComplete
 C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\bin\Debug\FileInformation.dll
 C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\bin\Debug\FileInformation.pdb
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\obj\Debug\FileInformationControl.PropertyFrm.resources
+C:\Users\Mohamed Beshri Amer\source\repos\Lab10\FileInformationControl\obj\Debug\FileInformationControl.FolderControl.resources

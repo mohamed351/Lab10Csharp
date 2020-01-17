@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Direcotr.cs" />
     <Compile Include="Drive.cs" />
     <Compile Include="Element.cs" />
     <Compile Include="PictureSource.Designer.cs">
@@ -75,6 +76,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Arrows-Back-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filesystems-hd-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cdrom-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
