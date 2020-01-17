@@ -6,9 +6,11 @@ using System;
 namespace FileInformationControl
 {
     public delegate void DriveNameHandler(Drive DriveName);
+    public delegate void ClickHandlerFolder(Direcotr direcotr, object sender);
     public partial class DrivesControls: UserControl
     {
         public event DriveNameHandler OnDriveNameChange;
+        public event ClickHandlerFolder OnDriveClick;
         string _DriveName;
         Drive drive;
 
@@ -21,6 +23,7 @@ namespace FileInformationControl
         public DrivesControls()
         {
             InitializeComponent();
+           
             InitalData();
 
 
@@ -70,6 +73,64 @@ namespace FileInformationControl
         {
             PropertyFrm frm = new PropertyFrm(this.drive);
             frm.ShowDialog();
+        }
+
+        private void DrivesControls_Click(object sender, EventArgs e)
+        {
+           
+        }
+        protected override void OnClick(EventArgs e)
+        {
+            if (OnDriveClick != null)
+            {
+                OnDriveClick(new Direcotr(DriveName, DriveName), this);
+            }
+        }
+
+        private void txtprcent_Click(object sender, EventArgs e)
+        {
+            if (OnDriveClick != null)
+            {
+                OnDriveClick(new Direcotr(DriveName, DriveName), this);
+            }
+        }
+
+        private void metroProgressBar1_Click(object sender, EventArgs e)
+        {
+            if (OnDriveClick != null)
+            {
+                OnDriveClick(new Direcotr(DriveName, DriveName), this);
+            }
+        }
+
+        private void txtLabelInfo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtspaceInfo_Click(object sender, EventArgs e)
+        {
+            if (OnDriveClick != null)
+            {
+                OnDriveClick(new Direcotr(DriveName, DriveName), this);
+            }
+        }
+
+        private void labelfull_Click(object sender, EventArgs e)
+        {
+            if (OnDriveClick != null)
+            {
+                OnDriveClick(new Direcotr(DriveName, DriveName), this);
+            }
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if (OnDriveClick != null)
+            {
+                OnDriveClick(new Direcotr(DriveName, DriveName), this);
+            }
         }
     }
 }

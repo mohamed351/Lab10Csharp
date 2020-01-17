@@ -24,6 +24,8 @@ namespace FileInformation
         {
            _info = new DirectoryInfo(FullName);
             this.Attributes = _info.Attributes;
+            this.FullPath = _info.FullName;
+            this.FileName = FileName;
            this.CreationTime = _info.CreationTime;
             this.CreationTimeUtc = _info.CreationTimeUtc;
             this.Exist = _info.Exists;
@@ -38,10 +40,24 @@ namespace FileInformation
            
 
         }
+        public Direcotr()
+            :this("C","C")
+        {
+
+        }
 
         public  DirectoryInfo[]  GetSubDrivesInfo()
         {
            return   _info.GetDirectories();
+        }
+        public  List<Direcotr> GetDirecotrs()
+        {
+            List<Direcotr> dir = new List<Direcotr>();
+            foreach (var item in _info.GetDirectories())
+            {
+                dir.Add(new Direcotr(item.FullName, item.Name));
+            }
+            return dir;
         }
 
 

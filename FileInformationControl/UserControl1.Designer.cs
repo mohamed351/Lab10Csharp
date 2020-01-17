@@ -52,6 +52,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // txtLabelInfo
             // 
@@ -62,6 +63,7 @@
             this.txtLabelInfo.Size = new System.Drawing.Size(32, 35);
             this.txtLabelInfo.TabIndex = 1;
             this.txtLabelInfo.Text = "-";
+            this.txtLabelInfo.Click += new System.EventHandler(this.txtLabelInfo_Click);
             // 
             // metroProgressBar1
             // 
@@ -71,6 +73,7 @@
             this.metroProgressBar1.Size = new System.Drawing.Size(312, 16);
             this.metroProgressBar1.TabIndex = 2;
             this.metroProgressBar1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroProgressBar1.Click += new System.EventHandler(this.metroProgressBar1_Click);
             // 
             // txtspaceInfo
             // 
@@ -82,6 +85,7 @@
             this.txtspaceInfo.Size = new System.Drawing.Size(27, 29);
             this.txtspaceInfo.TabIndex = 3;
             this.txtspaceInfo.Text = "-";
+            this.txtspaceInfo.Click += new System.EventHandler(this.txtspaceInfo_Click);
             // 
             // driveContextMenu
             // 
@@ -91,7 +95,7 @@
             this.formatToolStripMenuItem,
             this.propertyToolStripMenuItem});
             this.driveContextMenu.Name = "driveContextMenu";
-            this.driveContextMenu.Size = new System.Drawing.Size(211, 104);
+            this.driveContextMenu.Size = new System.Drawing.Size(135, 76);
             // 
             // openToolStripMenuItem
             // 
@@ -108,7 +112,7 @@
             // propertyToolStripMenuItem
             // 
             this.propertyToolStripMenuItem.Name = "propertyToolStripMenuItem";
-            this.propertyToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.propertyToolStripMenuItem.Size = new System.Drawing.Size(134, 24);
             this.propertyToolStripMenuItem.Text = "Property";
             this.propertyToolStripMenuItem.Click += new System.EventHandler(this.propertyToolStripMenuItem_Click);
             // 
@@ -122,6 +126,7 @@
             this.labelfull.Size = new System.Drawing.Size(27, 29);
             this.labelfull.TabIndex = 5;
             this.labelfull.Text = "-";
+            this.labelfull.Click += new System.EventHandler(this.labelfull_Click);
             // 
             // txtprcent
             // 
@@ -131,6 +136,7 @@
             this.txtprcent.Size = new System.Drawing.Size(28, 17);
             this.txtprcent.TabIndex = 6;
             this.txtprcent.Text = "0%";
+            this.txtprcent.Click += new System.EventHandler(this.txtprcent_Click);
             // 
             // DrivesControls
             // 
@@ -145,6 +151,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "DrivesControls";
             this.Size = new System.Drawing.Size(405, 131);
+            this.Click += new System.EventHandler(this.DrivesControls_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.driveContextMenu.ResumeLayout(false);
             this.ResumeLayout(false);

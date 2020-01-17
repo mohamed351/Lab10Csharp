@@ -15,14 +15,20 @@ namespace FunyWindowsExplore
 {
     public partial class Form1 : Form
     {
+        DrivesControls controls;
         public Form1()
         {
             InitializeComponent();
             this.Activate();
+         
            
         }
 
-       
+        private void Controls_OnDriveClick(Direcotr direcotr, object sender, EventArgs args)
+        {
+            this.flowLayoutPanel1.Controls.Clear();
+
+        }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
@@ -48,11 +54,26 @@ namespace FunyWindowsExplore
            
             foreach (var item in DriveInfo.GetDrives())
             {
-                DrivesControls controls = new DrivesControls()
+                controls = new DrivesControls()
                 {
                     DriveName = item.Name
                 };
+                controls.OnDriveClick += Controls_OnDriveClick1;
+                
                 flowLayoutPanel1.Controls.Add(controls);
+            }
+        }
+
+        private void Controls_OnDriveClick1(Direcotr direcotr, object sender)
+        {
+            this.flowLayoutPanel1.Controls.Clear();
+            List<Direcotr> direcotrs = direcotr.GetDirecotrs();
+            foreach (var item in direcotrs)
+            {
+                this.flowLayoutPanel1.Controls.Add(new FolderControl() {
+                    DirectoryName= item.FileName,
+                    FullPath = item.FullPath
+                });
             }
         }
     }
